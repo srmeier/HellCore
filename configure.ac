@@ -51,6 +51,7 @@ AC_CONFIG_FILES([Makefile
 # Check for necessary programs.
 
 # Make sure we have a working C compiler.
+: ${CFLAGS="-g"}
 AC_PROG_CC
 
 # Make sure we have a working yacc/bison/lex compiler.

@@ -55,6 +55,13 @@ run
 ./autogen.sh && ./configure && make
 ```
 
+### Cleanup
+
+Simply run
+```shell
+make distclean
+```
+
 ### USE AT YOUR OWN RISK. I DENY RESPONSIBILITY FOR:
 * Spontaneous hairy nose
 * Micropenis
